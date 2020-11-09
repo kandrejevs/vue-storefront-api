@@ -315,7 +315,8 @@
     "whitelist": {
       "allowedHosts": [
         ".*divante.pl",
-        ".*vuestorefront.io"
+        ".*vuestorefront.io",
+        "magento.veloshops.lv"
       ]
     },
     "cache": {
