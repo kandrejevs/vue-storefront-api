@@ -316,7 +316,8 @@
       "allowedHosts": [
         ".*divante.pl",
         ".*vuestorefront.io",
-        "magento.veloshops.lv"
+        "*.veloshops.lv",
+        "localhost"
       ]
     },
     "cache": {
