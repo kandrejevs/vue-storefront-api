@@ -283,7 +283,7 @@
   },
   "magento2": {
     "imgUrl": "https://magento.veloshops.lv/media/catalog/product",
-    "assetPath": "/../var/magento2-sample-data/pub/media",
+    "assetPath": "/media",
     "api": {
       "url": "https://magento.veloshops.lv/rest",
       "consumerKey": "tlxybjj5gfw6pul8icrdswd8wi523uq1",
