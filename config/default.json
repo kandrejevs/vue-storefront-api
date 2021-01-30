@@ -314,7 +314,7 @@
       "allowedHosts": [
         ".*divante.pl",
         ".*vuestorefront.io",
-        "*.veloshops.lv",
+        ".*veloshops.lv",
         "localhost"
       ]
     },
