@@ -22,7 +22,7 @@ services:
     volumes:
       - ./docker/kibana/config/:/usr/share/kibana/config:ro
     depends_on:
-      - es1
+      - es7
     networks:
       - default
 
