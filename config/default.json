@@ -143,7 +143,7 @@
     "defaultStockId": 1
   },
   "storeViews": {
-    "multistore": true,
+    "multistore": false,
     "mapStoreUrlsFor": [
       "de",
       "it"
@@ -156,7 +156,7 @@
       "name": "German Store",
       "url": "/de",
       "elasticsearch": {
-        "host": "localhost:8080/api/catalog",
+        "host": "es7:8080/api/catalog",
         "index": "vue_storefront_catalog_de"
       },
       "msi": {
@@ -191,7 +191,7 @@
       "name": "Italian Store",
       "url": "/it",
       "elasticsearch": {
-        "host": "localhost:8080/api/catalog",
+        "host": "es7:8080/api/catalog",
         "index": "vue_storefront_catalog_it"
       },
       "msi": {
