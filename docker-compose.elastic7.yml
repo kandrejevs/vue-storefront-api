@@ -6,19 +6,18 @@ services:
     ulimits:
       memlock:
         soft: -1
-        hard: -1    
+        hard: -1
     volumes:
       - ./docker/elasticsearch7/config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml:ro
-    ports:
-      - '9200:9200'
-      - '9300:9300'
     environment:
       - discovery.type=single-node
       - cluster.name=docker-cluster
       - bootstrap.memory_lock=true
       - "ES_JAVA_OPTS=-Xmx512m -Xms512m"
+    networks:
+      - default
 
   redis:
     image: 'redis:4-alpine'
-    ports:
-      - '6379:6379'
+    networks:
+      - default

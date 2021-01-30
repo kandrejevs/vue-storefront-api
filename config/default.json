@@ -22,16 +22,14 @@
     "excludeDisabledProducts": false
   },
   "elasticsearch": {
-    "host": "localhost",
+    "host": "es7",
     "index": "vue_storefront_catalog",
     "port": 9200,
     "protocol": "http",
     "requestTimeout": 5000,
     "min_score": 0.01,
     "indices": [
-      "vue_storefront_catalog",
-      "vue_storefront_catalog_de",
-      "vue_storefront_catalog_it"
+      "vue_storefront_catalog"
     ],
     "indexTypes": [
       "product",
