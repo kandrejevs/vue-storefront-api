@@ -22,7 +22,7 @@ services:
       - './scripts:/var/www/scripts'
       - './src:/var/www/src'
       - './var:/var/www/var'
-      -  './../veloshops/magento/pub/media:/var/www/media'
+      -  'app-media:/var/www/media'
     tmpfs:
       - /var/www/dist
     labels:
@@ -40,3 +40,7 @@ services:
     networks:
       - default
       - traefik
+
+volumes:
+  app-media:
+    external: true
